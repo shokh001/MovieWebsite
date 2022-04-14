@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    cursor: pointer;
+    padding: 0 50px;
     position: fixed;
     justify-content: center;
     background-color: #39445a;
@@ -10,9 +10,16 @@
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
     z-index: 100;
     letter-spacing: 1.1px;
+    left: 0;
+    top: 0;
+}
+
+.header span {
+    cursor: pointer;
 }
 
 .icon {
